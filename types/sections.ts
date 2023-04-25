@@ -79,10 +79,3 @@ export type ProjectType = {
   github?: string;
   link?: string;
 };
-
-// * FEEDBACK SECTION
-
-export type FeedbackType = {
-  name: string;
-  feedback: string;
-};

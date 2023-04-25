@@ -36,12 +36,24 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                     rel="noopener"
                     aria-label="Twitter"
                   >
+                    <span className="nav-link-inner--text ml-1">Demo </span>
                     <span className="btn-inner--icon">
                       <i className="fa fa-arrow-right mr-2" />
                     </span>
-                    <span className="nav-link-inner--text ml-1">Demo</span>
                   </Button>
-                ) : null}
+                ) : !github && <Button
+                  className="btn-icon"
+                  color="warning"
+                  href={link}
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Twitter"
+                >
+                  <span className="nav-link-inner--text ml-1">Soon </span>
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-arrow-right mr-2" />
+                  </span>
+                </Button>}
               </div>
             </div>
           </CardBody>

@@ -6,7 +6,7 @@ import ProjectsCard from '../components/ProjectsCard';
 const Projects = () => {
   return (
     projects && (
-      <section className="section section-lg">
+      <section className="section section-lg bg-gradient-default" id="projects">
         <Container>
           <div className="d-flex p-4">
             <div>

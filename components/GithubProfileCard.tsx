@@ -5,13 +5,13 @@ import SocialLinks from './SocialLinks';
 
 const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
   return (
-    <Card className="section-lg bg-gradient-info shadow-lg border-0">
+    <Card className="section-lg bg-gradient-default shadow-lg border-0">
       <Container className="">
         <div className="p-2">
           <Row className="">
             <Col className="order-lg-2" lg="4">
               <img
-                src={avatar_url}
+                src="/img/pdp.jpeg"
                 style={{ width: '200px' }}
                 alt=""
                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
@@ -20,14 +20,11 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">
-                DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
-                ALL
+                LOOKING FOR A GAMEPLAY PROGRAMMER INTERNSHIP FOR SUMMER 2023
               </p>
-              <p className="text-white mt-3">{bio}</p>
-              <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-                <i className="ni ni-pin-3 text-info mr-2" />
-                {location}
-              </div>
+              <p className="text-white">
+                Mail me at : <a href='mailto:damienjoseph.rispal@gmail.com'>damienjoseph.rispal@gmail.com</a>
+              </p>
               <SocialLinks />
             </Col>
           </Row>

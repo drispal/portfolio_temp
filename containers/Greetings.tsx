@@ -3,6 +3,7 @@ import { greetings } from '../portfolio';
 import { Button, Container, Row, Col } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
+import DisplayLottie from '../components/DisplayLottie';
 
 const Greetings = () => {
   useEffect(() => {
@@ -13,27 +14,20 @@ const Greetings = () => {
   return (
     <main>
       <div className="position-relative">
-        <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-info">
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
+        <section className="section section-lg section-shaped pb-300">
+          <div className="shape shape-style-1 bg-gradient-default">
+            {Array.from({ length: 6 }, (_, i) => (
+              <span key={'span-circle' + i}/>
+            ))}
           </div>
-          <Container className="py-lg-md d-flex">
-            <div className="col px-0">
+          <Container className="">
+            <div className="col-auto">
               <Row>
-                <Col lg="6">
-                  <h1 className="display-3 text-white">
+                <Col xl={{size: "auto"}} className='align-self-center'>
+                  <h1 className="display-1 text-white">
                     {greetings.title + ' '}
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>
-                  <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
                       <Button
@@ -49,8 +43,8 @@ const Greetings = () => {
                     </div>
                   )}
                 </Col>
-                <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                <Col>
+                  <GreetingLottie animationPath="/lottie/gamedev.json" />
                 </Col>
               </Row>
             </div>
@@ -67,6 +61,16 @@ const Greetings = () => {
             >
               <polygon className="fill-white" points="2560 0 2560 100 0 100" />
             </svg>
+            <Container>
+              <Row className="align-items-center">
+                <Col className="ml-lg-auto">
+                    <p className='text-center'>Scroll to discover more</p>
+                </Col>
+              </Row>
+              <Row className="align-items-center position-absolute" style={{width: "48px", height:"48px", right: "50%"}}>
+                  <DisplayLottie animationPath="/lottie/scroll_down.json" />
+              </Row>
+            </Container>
           </div>
         </section>
         {/* 1st Hero Variation */}

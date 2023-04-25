@@ -2,7 +2,6 @@ import emoji from 'react-easy-emoji';
 import {
   EducationType,
   ExperienceType,
-  FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -12,42 +11,87 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'DJ\'s Portfolio',
+  title: "Damien-Joseph Rispal",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "French Engineer and Game Developer",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    '',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'drispal',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  linkedin: 'https://www.linkedin.com/in/rispal-dj/',
+  github: 'https://github.com/drispal',
+  itchio: 'https://fulgu.itch.io/',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: '',
   data: [
     {
-      title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      title: 'Game Developement',
+      lottieAnimationFile: '/lottie/gamedev.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ As a gameplay programmer, I possess a strong understanding of game design and mechanics, enabling me to bring creative ideas to life through coding.'),
+        emoji('⚡ Proficiency in programming languages such as C++ and C#, as well as experience with public game engines (Unity and Unreal).'),
+        emoji('⚡ I like collaborating with artists, designers, and other programmers to create engaging and immersive games.'),
+      ],
+      softwareSkills: [
+        {
+          skillName: 'Unity',
+          fontAwesomeClassName: 'logos:unity',
+        },
+        {
+          skillName: 'C Sharp',
+          fontAwesomeClassName: 'teenyicons:c-sharp-solid',
+        },
+        {
+          skillName: 'Unreal Engine',
+          fontAwesomeClassName: 'fontisto:unreal-engine',
+        },
+        {
+          skillName: 'C Plus Plus',
+          fontAwesomeClassName: 'logos:c-plusplus',
+        },
+      ],
+    },
+    {
+      title: 'Mobile developement',
+      lottieAnimationFile: '/lottie/mobdev.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Skilled in Jetpack Compose and Flutter for mobile app development, with strong architecture knowledge.'),
+        emoji('⚡ Experienced in UI/UX implementation, backend integration, and app performance optimization.'),
+        emoji('⚡ Proficient in debugging, troubleshooting, and maintaining code quality with Git.'),
+      ],
+      softwareSkills: [
+        {
+          skillName: 'Android',
+          fontAwesomeClassName: 'devicon:android',
+        },
+        {
+          skillName: 'Jetpack Compose',
+          fontAwesomeClassName: 'simple-icons:jetpackcompose',
+        },
+        {
+          skillName: 'Flutter',
+          fontAwesomeClassName: 'logos:flutter',
+        },
+      ],
+    },
+    {
+      title: 'Web developement',
+      lottieAnimationFile: '/lottie/fullstack.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Skilled in HTML, CSS, and JavaScript with a focus on responsive design.'),
+        emoji('⚡ Experienced in front-end frameworks like React and Angular for scalable web applications.'),
+        emoji('⚡ Experienced in back-end development using Node.js, PHP and MySQL for robust and secure web solutions.'),
       ],
       softwareSkills: [
         {
@@ -67,251 +111,142 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
-        },
-        {
-          skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
-        },
-        {
-          skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Yarn',
-          fontAwesomeClassName: 'logos:yarn',
-        },
-      ],
-    },
-    {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          fontAwesomeClassName: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          fontAwesomeClassName: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
-        },
-        {
-          skillName: 'Github',
-          fontAwesomeClassName: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
-        },
-      ],
-    },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          skillName: 'Threejs',
+          fontAwesomeClassName: 'simple-icons:threedotjs',
         },
       ],
     },
   ],
 };
 
-export const SkillBars: SkillBarsType[] = [
-  {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
-    Stack: 'Backend',
-    progressPercentage: '70',
-  },
-  {
-    Stack: 'Programming',
-    progressPercentage: '60',
-  },
-];
+export const SkillBars: SkillBarsType[] = [];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'UQAC',
+    subHeader: 'Master’s degree in video games',
+    duration: '2022 - 2023',
+    desc: 'University of Quebec in Chicoutimi, Canada. ',
+    grade: '',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Processes of game making.',
+      'Prototyping on Unreal and Unity.',
+    ],
+  }, {
+    schoolName: 'INSA Lyon',
+    subHeader: 'Computer Science Engineering degree',
+    duration: '2020 - 2023',
+    desc: 'French engineering school, ranked 1st in France for its research and 4th for its international outreach.',
+    grade: '',
+    descBullets: [
+      'OOP (C++, Java) and programming (C, JavaScript).',
+      'Computer architecture and network.',
+      'High Level Algorithm, AI and data mining.',
+      'Mathematics (Algebra, Probability, Statistics)',
+      'Software engineering',
+    ],
+  },
+  {
+    schoolName: 'Lycée Descartes',
+    subHeader: 'Higher School Preparatory Course MP/MP*',
+    duration: '2018 - 2020',
+    desc: 'Two years of intensive preparation for the national competitive entrance exams to the French engineering schools (Grandes Ecoles).',
+    grade: '',
+    descBullets: [
+      'Mathematics (Algebra, Analysis, Geometry, Functions, Equations).',
+      'Physics (Thermodynamics, Mechanics, Electrokinetic, Electromagnetism, Optics).',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Web developer',
+    company: 'wiiCare',
+    companyLogo: '/img/entreprises/wiicare.png',
+    date: 'June 2021 – August 2021',
+    desc: 'Development in full autonomy of a website. (no longer used)',
+    descBullets: [
+      "Using WordPress and PHP.",
+      "Making custom packages and themes.",
+    ],
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: 'President',
+    company: 'AEDI',
+    companyLogo: '/img/entreprises/aedi.jpeg',
+    date: 'May 2021 – May 2022',
+    desc: 'President of a student union at INSA Lyon.',
+    descBullets: [
+      "Planning events and activities every two weeks.",
+      "Managing a group of 30 and a 70K year budget.",
+      "Discussion with mentorship companies.",
+    ],
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    role: 'Unity 3D VR Programmer',
+    company: 'onepoint',
+    companyLogo: '/img/entreprises/onepoint.png',
+    date: 'May 2022 - Aug 2022',
+    desc: 'Developed an online VR experience on unity.',
+    descBullets: [
+      "Improved game server with rooms features.",
+      "Created image editor tool by working with shaders.",
+    ],
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Gameplay Programmer Internship',
+    company: 'Your company',
+    companyLogo: '/img/hireMe.jpg',
+    date: '6 Months starting Summer 2023',
+    desc: '',
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Hyperaustral',
+    desc: 'Hyperaustral is a 2D top-down management game where you control a flying ark carrying survivors of an Earth catastrophe. You must manage resources, order passengers to perform tasks, and make quick decisions to keep them alive as you fly towards a landing strip. Random events and problems will eliminate passengers one by one, and only good management skills will prevent a disaster. The goal is to save enough passengers to win the game.',
+    link: '',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Messy Potions',
+    desc: 'Messy Potions is a 3D RPG where the player controls a young wizard named Audric. He creates potions that are rather strange in order to defeat his enemies throughout the different dungeons of the game.',
+    link: 'https://zaksley.itch.io/messy-potions',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Endless Ball',
+    desc: 'Just a casual game that is not as easy at it looks like. Start from zero and try to reach the highest score by moving the ball towards obstacles.',
+    link: 'https://fulgu.itch.io/endless-ball',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-  },
-];
-
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+    name: 'SwearOff',
+    desc: 'An simple AI to censure swear in youtube videos.',
+    github: 'https://github.com/drispal/SwearOff',
   },
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Damien-Joseph RISPAL',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+    'A passionate gameplay programmer.',
+  author: 'Damien-Joseph RISPAL',
+  image: 'https://media.licdn.com/dms/image/C4E03AQGRz0vcyGFElg/profile-displayphoto-shrink_800_800/0/1654350488409?e=1687996800&v=beta&t=ErRFHgnTlWQLN6AA77pVovJnyWBveCdG1JbdlgUlwos',
+  url: '',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Damien-Joseph',
+    'Damien Joseph RISPAL',
+    'Damien-Joseph RISPAL',
+    'Damien RISPAL',
+    'Damien',
+    'RISPAL',
+    'Damien-Joseph RISPAL Portfolio',
+    'drispal',
+    '@drispal',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
   ],
 };

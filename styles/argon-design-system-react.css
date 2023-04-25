@@ -20,8 +20,13 @@
 	src: url('/fonts/Agustina.otf');
 }
 
+@font-face {
+	font-family: Montserrat;
+	src: url('/fonts/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
 #nav-title {
-	font-family: Augestina;
+	font-family: Montserrat;
 	text-transform: capitalize;
 }
 
