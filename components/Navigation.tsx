@@ -72,14 +72,14 @@ const Navigation = () => {
                 <NavItem>
                   <div onClick={onExiting}>
                     <NavLink href="/#skills">
-                      Skills
+                      About Me
                     </NavLink>
                   </div>
                 </NavItem>
                 <NavItem>
                   <div onClick={onExiting}>
-                    <NavLink href="/#education">
-                      Education
+                    <NavLink href="/#projects">
+                      Projects
                     </NavLink>
                   </div>
                 </NavItem>
@@ -92,8 +92,8 @@ const Navigation = () => {
                 </NavItem>
                 <NavItem>
                   <div onClick={onExiting}>
-                    <NavLink href="/#projects">
-                      Projects
+                    <NavLink href="/#education">
+                      Education
                     </NavLink>
                   </div>
                 </NavItem>

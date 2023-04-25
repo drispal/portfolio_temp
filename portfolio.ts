@@ -32,16 +32,16 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
+  title: 'Who I Am',
   subTitle: '',
   data: [
     {
       title: 'Game Developement',
       lottieAnimationFile: '/lottie/gamedev.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ As a gameplay programmer, I possess a strong understanding of game design and mechanics, enabling me to bring creative ideas to life through coding.'),
-        emoji('⚡ Proficiency in programming languages such as C++ and C#, as well as experience with public game engines (Unity and Unreal).'),
-        emoji('⚡ I like collaborating with artists, designers, and other programmers to create engaging and immersive games.'),
+        emoji('🎮 As a gameplay programmer, I possess a strong understanding of game design and mechanics, enabling me to bring creative ideas to life through coding.'),
+        emoji('👨‍💻 Proficiency in programming languages such as C++ and C#, as well as experience with public game engines (Unity and Unreal).'),
+        emoji('👥 I like collaborating with artists, designers, and other programmers to create engaging and immersive games.'),
       ],
       softwareSkills: [
         {
@@ -63,12 +63,46 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Mobile developement',
+      title: 'Engineering',
+      lottieAnimationFile: '/lottie/engineer.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('🧮 Strong background in mathematics and physics and interest in sciences.'),
+        emoji('✅ Proficient in programming languages such as C++, C#, Python, Java, and JavaScript.'),
+        emoji('🔄 Understanding of software development life cycle and agile methodologies.'),
+        emoji('🤖 Knowledge in various computer science fields such as Network and AI.'),
+        emoji('🤝 Experienced in managing team and bring together the best of everyone.'),
+      ],
+      softwareSkills: [
+        {
+          skillName: 'Mathematics',
+          fontAwesomeClassName: 'mdi:math-integral-box',
+        },
+        {
+          skillName: 'Physics',
+          fontAwesomeClassName: 'ph:atom',
+        },
+        {
+          skillName: 'Network',
+          fontAwesomeClassName: 'mdi:access-point-network',
+        },
+        {
+          skillName: 'AI',
+          fontAwesomeClassName: 'eos-icons:ai',
+        },
+        {
+          skillName: 'Team Management',
+          fontAwesomeClassName: 'fluent:people-team-16-regular',
+        },
+      ],
+    },
+    {
+      title: 'Mobile/Web developement',
       lottieAnimationFile: '/lottie/mobdev.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Skilled in Jetpack Compose and Flutter for mobile app development, with strong architecture knowledge.'),
-        emoji('⚡ Experienced in UI/UX implementation, backend integration, and app performance optimization.'),
-        emoji('⚡ Proficient in debugging, troubleshooting, and maintaining code quality with Git.'),
+        emoji('🏛️ Skilled in Jetpack Compose and Flutter for mobile app development, with strong architecture knowledge.'),
+        emoji('💥 Experienced in front-end frameworks like React and back-end development using Node.js, PHP and MySQL'),
+        emoji('🚀 Experienced in UI/UX implementation and backend integration.'),
+        emoji('🐞 Proficient in debugging, troubleshooting, and maintaining code quality with Git.'),
       ],
       softwareSkills: [
         {
@@ -83,17 +117,6 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Flutter',
           fontAwesomeClassName: 'logos:flutter',
         },
-      ],
-    },
-    {
-      title: 'Web developement',
-      lottieAnimationFile: '/lottie/fullstack.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Skilled in HTML, CSS, and JavaScript with a focus on responsive design.'),
-        emoji('⚡ Experienced in front-end frameworks like React and Angular for scalable web applications.'),
-        emoji('⚡ Experienced in back-end development using Node.js, PHP and MySQL for robust and secure web solutions.'),
-      ],
-      softwareSkills: [
         {
           skillName: 'HTML-5',
           fontAwesomeClassName: 'vscode-icons:file-type-html',
@@ -206,16 +229,19 @@ export const experience: ExperienceType[] = [
 export const projects: ProjectType[] = [
   {
     name: 'Hyperaustral',
+    image: '/img/projects/hyperAustral.png',
     desc: 'Hyperaustral is a 2D top-down management game where you control a flying ark carrying survivors of an Earth catastrophe. You must manage resources, order passengers to perform tasks, and make quick decisions to keep them alive as you fly towards a landing strip. Random events and problems will eliminate passengers one by one, and only good management skills will prevent a disaster. The goal is to save enough passengers to win the game.',
     link: '',
   },
   {
     name: 'Messy Potions',
+    image: '/img/projects/messyp.png',
     desc: 'Messy Potions is a 3D RPG where the player controls a young wizard named Audric. He creates potions that are rather strange in order to defeat his enemies throughout the different dungeons of the game.',
     link: 'https://zaksley.itch.io/messy-potions',
   },
   {
     name: 'Endless Ball',
+    image: '/img/projects/endless.png',
     desc: 'Just a casual game that is not as easy at it looks like. Start from zero and try to reach the highest score by moving the ball towards obstacles.',
     link: 'https://fulgu.itch.io/endless-ball',
   },
