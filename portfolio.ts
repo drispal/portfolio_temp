@@ -221,7 +221,7 @@ export const experience: ExperienceType[] = [
     role: 'Gameplay Programmer Internship',
     company: 'Your company',
     companyLogo: '/img/hireMe.jpg',
-    date: '6 Months starting Summer 2023',
+    date: '6 Months starting September 2023',
     desc: '',
   },
 ];
@@ -247,7 +247,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'SwearOff',
-    desc: 'An simple AI to censure swear in youtube videos.',
+    desc: 'A simple AI to censure swear in youtube videos.',
     github: 'https://github.com/drispal/SwearOff',
   },
 ];
