@@ -80,4 +80,5 @@ export type ProjectType = {
   github?: string;
   link?: string;
   video?: string;
+  file?: string;
 };

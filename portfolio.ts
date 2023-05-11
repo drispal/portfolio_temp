@@ -149,7 +149,7 @@ export const projects: ProjectType[] = [
     name: 'Hyperaustral',
     image: '/img/projects/hyperAustral.png',
     desc: 'Hyperaustral is a 2D top-down management game where you control a flying ark carrying survivors of an Earth catastrophe. You must manage passengers performing tasks and make quick decisions as you try to reach a possible landing zone with limited ressources.',
-    link: '',
+    link: 'https://phyrocast.itch.io/hyperaustral',
     video: 'w5U2fBAAP3I',
   },
   {
@@ -166,6 +166,11 @@ export const projects: ProjectType[] = [
     link: 'https://fulgu.itch.io/endless-ball',
   },
   {
+    name: 'Onimetsu',
+    desc: 'Currently developping a 3D Hack\'n Slash game on my own.',
+    file: '/file/ONIMETSU_op.pdf',
+  },
+  {
     name: 'SwearOff',
     desc: 'A tools powered by AI to censure swear in youtube videos.',
     github: 'https://github.com/drispal/SwearOff',
@@ -178,7 +183,7 @@ export const experience: ExperienceType[] = [
     company: 'wiiCare',
     companyLogo: '/img/entreprises/wiicare.png',
     date: 'June 2021 – August 2021',
-    desc: 'Development in full autonomy of a website. (no longer used)',
+    desc: 'Website development in full autonomy.',
     descBullets: [
       "Using WordPress and PHP.",
       "Making custom packages and themes.",
@@ -192,7 +197,7 @@ export const experience: ExperienceType[] = [
     desc: 'President of a student union at INSA Lyon.',
     descBullets: [
       "Planning events and activities every two weeks.",
-      "Managing a group of 30 and a 70K year budget.",
+      "Managing a group of 30 people and a 70K year budget.",
       "Discussion with mentorship companies.",
     ],
   },
@@ -201,8 +206,10 @@ export const experience: ExperienceType[] = [
     company: 'onepoint',
     companyLogo: '/img/entreprises/onepoint.png',
     date: 'May 2022 - Aug 2022',
-    desc: 'Developed an online VR experience on unity.',
+    desc: 'Developed an online VR web experience with Unity.',
     descBullets: [
+      "Using a WebXR exporter for Unity",
+      "Adapting existing features to VR.",
       "Improved game server with rooms features.",
       "Created image editor tool by working with shaders.",
     ],
@@ -225,7 +232,11 @@ export const educationInfo: EducationType[] = [
     grade: '',
     descBullets: [
       'Processes of game making.',
+      'CS Project Management.',
       'Prototyping on Unreal and Unity.',
+      'Principles of game engines (Audio, Video, Network).',
+      'Making a small game engine',
+      'Fundamentals of Machine Learning.',
     ],
   }, {
     schoolName: 'INSA Lyon',

@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { ProjectType } from '../types/sections';
 import YoutubeEmbed from './YoutubeEmbed';
 
-const ProjectsCard = ({ name, image, video, desc, github, link }: ProjectType) => {
+const ProjectsCard = ({ name, image, video, desc, github, link, file }: ProjectType) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
@@ -44,7 +44,7 @@ const ProjectsCard = ({ name, image, video, desc, github, link }: ProjectType) =
                       <i className="fa fa-arrow-right mr-2" />
                     </span>
                   </Button>
-                ) : !github && <Button
+                ) : !github && !file && <Button
                   className="btn-icon"
                   color="warning"
                   href={link}
@@ -57,6 +57,20 @@ const ProjectsCard = ({ name, image, video, desc, github, link }: ProjectType) =
                     <i className="fa fa-arrow-right mr-2" />
                   </span>
                 </Button>}
+                {file && <Button
+                    className="btn-icon"
+                    color="warning"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Twitter"
+                  >
+                    <a href={file} target="_blank">
+                    <span className="nav-link-inner--text ml-1">Read More </span>
+                    <span className="btn-inner--icon">
+                      <i className="fa fa-arrow-right mr-2" />
+                    </span>
+                    </a>
+                  </Button>}
               </div>
             </div>
           </CardBody>
