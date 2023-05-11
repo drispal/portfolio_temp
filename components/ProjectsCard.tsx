@@ -2,13 +2,15 @@ import React from 'react';
 import { Card, CardBody, Col, Button, CardImg } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import { ProjectType } from '../types/sections';
+import YoutubeEmbed from './YoutubeEmbed';
 
-const ProjectsCard = ({ name, image, desc, github, link }: ProjectType) => {
+const ProjectsCard = ({ name, image, video, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
         <Card className="shadow-lg--hover shadow mt-4">
-          {image && <CardImg variant="top" src={image} />}
+          {image && !video && <CardImg variant="top" src={image}/>}
+          {video && <YoutubeEmbed embedId={video}/> }
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">

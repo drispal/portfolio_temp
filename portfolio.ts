@@ -10,26 +10,26 @@ import {
   GreetingsType,
 } from './types/sections';
 
-export const greetings: GreetingsType = {
-  name: 'DJ\'s Portfolio',
-  title: "Damien-Joseph Rispal",
-  description:
-    "French Engineer and Game Developer",
-  resumeLink:
-    '',
+export const socialLinks: SocialLinksType = {
+  linkedin: 'https://www.linkedin.com/in/rispal-dj/',
+  github: 'https://github.com/drispal',
+  itchio: 'https://fulgu.itch.io/',
 };
 
 export const openSource = {
   githubUserName: 'drispal',
 };
 
-export const contact = {};
-
-export const socialLinks: SocialLinksType = {
-  linkedin: 'https://www.linkedin.com/in/rispal-dj/',
-  github: 'https://github.com/drispal',
-  itchio: 'https://fulgu.itch.io/',
+export const greetings: GreetingsType = {
+  name: 'DJ\'s Portfolio',
+  title: "Damien-Joseph Rispal",
+  description:
+    "Computer Science Engineer & Game Developer",
+  resumeLink:
+    '',
 };
+
+export const contact = {};
 
 export const skillsSection: SkillsSectionType = {
   title: 'Who I Am',
@@ -144,41 +144,31 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [];
 
-export const educationInfo: EducationType[] = [
+export const projects: ProjectType[] = [
   {
-    schoolName: 'UQAC',
-    subHeader: 'Master’s degree in video games',
-    duration: '2022 - 2023',
-    desc: 'University of Quebec in Chicoutimi, Canada. ',
-    grade: '',
-    descBullets: [
-      'Processes of game making.',
-      'Prototyping on Unreal and Unity.',
-    ],
-  }, {
-    schoolName: 'INSA Lyon',
-    subHeader: 'Computer Science Engineering degree',
-    duration: '2020 - 2023',
-    desc: 'French engineering school, ranked 1st in France for its research and 4th for its international outreach.',
-    grade: '',
-    descBullets: [
-      'OOP (C++, Java) and programming (C, JavaScript).',
-      'Computer architecture and network.',
-      'High Level Algorithm, AI and data mining.',
-      'Mathematics (Algebra, Probability, Statistics)',
-      'Software engineering',
-    ],
+    name: 'Hyperaustral',
+    image: '/img/projects/hyperAustral.png',
+    desc: 'Hyperaustral is a 2D top-down management game where you control a flying ark carrying survivors of an Earth catastrophe. You must manage passengers performing tasks and make quick decisions as you try to reach a possible landing zone with limited ressources.',
+    link: '',
+    video: 'w5U2fBAAP3I',
   },
   {
-    schoolName: 'Lycée Descartes',
-    subHeader: 'Higher School Preparatory Course MP/MP*',
-    duration: '2018 - 2020',
-    desc: 'Two years of intensive preparation for the national competitive entrance exams to the French engineering schools (Grandes Ecoles).',
-    grade: '',
-    descBullets: [
-      'Mathematics (Algebra, Analysis, Geometry, Functions, Equations).',
-      'Physics (Thermodynamics, Mechanics, Electrokinetic, Electromagnetism, Optics).',
-    ],
+    name: 'Messy Potions',
+    image: '/img/projects/messyp.png',
+    desc: 'Messy Potions is a 3D Solo Action RPG in a medieval fantasy world. The player controls Audric, a small (literally, very small) magician with a complex about his height. Audric makes and uses his potions to defeat orcs, giants and undead who guard the potion that will allow him to grow to the size of his peers.',
+    link: 'https://zaksley.itch.io/messy-potions',
+    video: 'XKSBpPAC17Y',
+  },
+  {
+    name: 'Endless Ball',
+    image: '/img/projects/endless.png',
+    desc: 'Just a casual game that is not as easy at it looks like. Start from zero and try to reach the highest score by moving the ball towards obstacles.',
+    link: 'https://fulgu.itch.io/endless-ball',
+  },
+  {
+    name: 'SwearOff',
+    desc: 'A tools powered by AI to censure swear in youtube videos.',
+    github: 'https://github.com/drispal/SwearOff',
   },
 ];
 
@@ -226,29 +216,41 @@ export const experience: ExperienceType[] = [
   },
 ];
 
-export const projects: ProjectType[] = [
+export const educationInfo: EducationType[] = [
   {
-    name: 'Hyperaustral',
-    image: '/img/projects/hyperAustral.png',
-    desc: 'Hyperaustral is a 2D top-down management game where you control a flying ark carrying survivors of an Earth catastrophe. You must manage resources, order passengers to perform tasks, and make quick decisions to keep them alive as you fly towards a landing strip. Random events and problems will eliminate passengers one by one, and only good management skills will prevent a disaster. The goal is to save enough passengers to win the game.',
-    link: '',
+    schoolName: 'UQAC',
+    subHeader: 'Master’s degree in video games',
+    duration: '2022 - 2023',
+    desc: 'University of Quebec in Chicoutimi, Canada. ',
+    grade: '',
+    descBullets: [
+      'Processes of game making.',
+      'Prototyping on Unreal and Unity.',
+    ],
+  }, {
+    schoolName: 'INSA Lyon',
+    subHeader: 'Computer Science Engineering degree',
+    duration: '2020 - 2023',
+    desc: 'Engineering school, ranked 1st in France for computer science and 4th for its international outreach.',
+    grade: '',
+    descBullets: [
+      'OOP (C++, Java) and programming (C, JavaScript).',
+      'Computer architecture and network.',
+      'High Level Algorithm, AI and data mining.',
+      'Mathematics (Algebra, Probability, Statistics)',
+      'Software engineering',
+    ],
   },
   {
-    name: 'Messy Potions',
-    image: '/img/projects/messyp.png',
-    desc: 'Messy Potions is a 3D RPG where the player controls a young wizard named Audric. He creates potions that are rather strange in order to defeat his enemies throughout the different dungeons of the game.',
-    link: 'https://zaksley.itch.io/messy-potions',
-  },
-  {
-    name: 'Endless Ball',
-    image: '/img/projects/endless.png',
-    desc: 'Just a casual game that is not as easy at it looks like. Start from zero and try to reach the highest score by moving the ball towards obstacles.',
-    link: 'https://fulgu.itch.io/endless-ball',
-  },
-  {
-    name: 'SwearOff',
-    desc: 'A simple AI to censure swear in youtube videos.',
-    github: 'https://github.com/drispal/SwearOff',
+    schoolName: 'Lycée Descartes',
+    subHeader: 'Higher School Preparatory Course MP/MP*',
+    duration: '2018 - 2020',
+    desc: 'Two years of intensive preparation for the national competitive entrance exams to the french engineering schools (Grandes Ecoles).',
+    grade: '',
+    descBullets: [
+      'Mathematics (Algebra, Analysis, Geometry, Functions, Equations).',
+      'Physics (Thermodynamics, Mechanics, Electrokinetic, Electromagnetism, Optics).',
+    ],
   },
 ];
 
@@ -261,7 +263,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate gameplay programmer.',
   author: 'Damien-Joseph RISPAL',
-  image: 'https://media.licdn.com/dms/image/C4E03AQGRz0vcyGFElg/profile-displayphoto-shrink_800_800/0/1654350488409?e=1687996800&v=beta&t=ErRFHgnTlWQLN6AA77pVovJnyWBveCdG1JbdlgUlwos',
+  image: '',
   url: '',
   keywords: [
     'Damien-Joseph',

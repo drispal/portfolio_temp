@@ -9,18 +9,10 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
       <Container className="">
         <div className="p-2">
           <Row className="">
-            <Col className="order-lg-2" lg="4">
-              <img
-                src="/img/pdp.jpeg"
-                style={{ width: '200px' }}
-                alt=""
-                className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
-              />
-            </Col>
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">
-                LOOKING FOR A GAMEPLAY PROGRAMMER INTERNSHIP FOR SEPTEMBER 2023
+                LOOKING FOR A GAMEPLAY PROGRAMMER INTERNSHIP STARTING IN SEPTEMBER 2023
               </p>
               <p className="text-white">
                 Mail me at : <a href='mailto:damienjoseph.rispal@gmail.com'>damienjoseph.rispal@gmail.com</a>

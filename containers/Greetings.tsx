@@ -27,7 +27,9 @@ const Greetings = () => {
                   <h1 className="display-1 text-white">
                     {greetings.title + ' '}
                   </h1>
-                  <p className="lead text-white">{greetings.description}</p>
+                  <p className="lead text-white">
+                    {greetings.description} 
+                  </p>
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
                       <Button
