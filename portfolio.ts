@@ -66,11 +66,11 @@ export const skillsSection: SkillsSectionType = {
       title: 'Engineering',
       lottieAnimationFile: '/lottie/engineer.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('🧮 Strong background in mathematics and physics and interest in sciences.'),
-        emoji('✅ Proficient in programming languages such as C++, C#, Python, Java, and JavaScript.'),
-        emoji('🔄 Understanding of software development life cycle and agile methodologies.'),
+        emoji('🧮 Mathematics and Physics lover but interest in all sciences.'),
+        emoji('✅ Comfortable with C++, C#, Python, Java, and JavaScript.'),
+        emoji('🔄 Software development and Agile methodologies.'),
         emoji('🤖 Knowledge in various computer science fields such as Network and AI.'),
-        emoji('🤝 Experienced in managing team and bring together the best of everyone.'),
+        emoji('🤝 Experiencedin in team management and bring together the best of everyone !'),
       ],
       softwareSkills: [
         {
@@ -99,9 +99,8 @@ export const skillsSection: SkillsSectionType = {
       title: 'Mobile/Web developement',
       lottieAnimationFile: '/lottie/mobdev.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('🏛️ Skilled in Jetpack Compose and Flutter for mobile app development, with strong architecture knowledge.'),
+        emoji('🏛️ Jetpack Compose and Flutter for app development, with strong architecture knowledge.'),
         emoji('💥 Experienced in front-end frameworks like React and back-end development using Node.js, PHP and MySQL'),
-        emoji('🚀 Experienced in UI/UX implementation and backend integration.'),
         emoji('🐞 Proficient in debugging, troubleshooting, and maintaining code quality with Git.'),
       ],
       softwareSkills: [
