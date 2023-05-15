@@ -214,7 +214,7 @@ export const experience: ExperienceType[] = [
     ],
   },
   {
-    role: 'Gameplay Programmer Internship',
+    role: 'Gameplay Programmer End of Study Internship',
     company: 'Your company',
     companyLogo: '/img/hireMe.jpg',
     date: '6 Months starting September 2023',
@@ -234,7 +234,7 @@ export const educationInfo: EducationType[] = [
       'CS Project Management.',
       'Prototyping on Unreal and Unity.',
       'Principles of game engines (Audio, Video, Network).',
-      'Making a small game engine',
+      'Making a small game engine.',
       'Fundamentals of Machine Learning.',
     ],
   }, {
@@ -258,7 +258,7 @@ export const educationInfo: EducationType[] = [
     desc: 'Two years of intensive preparation for the national competitive entrance exams to the french engineering schools (Grandes Ecoles).',
     grade: '',
     descBullets: [
-      'Mathematics (Algebra, Analysis, Geometry, Functions, Equations).',
+      'Advanced Mathematics (Algebra, Analysis, Geometry, Functions, Equations).',
       'Physics (Thermodynamics, Mechanics, Electrokinetic, Electromagnetism, Optics).',
     ],
   },
