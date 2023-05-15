@@ -64,7 +64,7 @@ const ProjectsCard = ({ name, image, video, desc, github, link, file }: ProjectT
                     rel="noopener"
                     aria-label="Twitter"
                   >
-                    <a href={file} target="_blank" rel=noopener>
+                    <a href={file} target="_blank" rel="noopener noreferrer">
                     <span className="nav-link-inner--text ml-1">Read More </span>
                     <span className="btn-inner--icon">
                       <i className="fa fa-arrow-right mr-2" />
