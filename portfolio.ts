@@ -195,9 +195,10 @@ export const experience: ExperienceType[] = [
     date: 'May 2021 – May 2022',
     desc: 'President of a student union at INSA Lyon.',
     descBullets: [
-      "Planning events and activities every two weeks.",
-      "Managing a group of 30 people and a 70K year budget.",
-      "Discussion with mentorship companies.",
+      "Events (Business Forum, Graduation Ceremony...)",
+      "Activities (Sports, LAN, Parties...)",
+      "Managing a group of 30 people and a 70 k€ year budget.",
+      "Relationship management with companies and other associations.",
     ],
   },
   {
