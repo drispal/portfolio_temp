@@ -170,6 +170,11 @@ export const projects: ProjectType[] = [
     file: '/file/ONIMETSU_op.pdf',
   },
   {
+    name: 'BuddyBuilder',
+    desc: 'Jetpack Compose app to help you finding mates for your games. Developped with Material Design 3 and Firebase',
+    github: 'https://github.com/drispal/BuddyBuilder',
+  },
+  {
     name: 'SwearOff',
     desc: 'A tools powered by AI to censure swear in youtube videos.',
     github: 'https://github.com/drispal/SwearOff',
