@@ -165,11 +165,6 @@ export const projects: ProjectType[] = [
     link: 'https://fulgu.itch.io/endless-ball',
   },
   {
-    name: 'Onimetsu',
-    desc: 'Currently developping a 3D Hack\'n Slash game on my own.',
-    file: '/file/ONIMETSU_op.pdf',
-  },
-  {
     name: 'BuddyBuilder',
     image: '/img/projects/buddybuilder.png',
     desc: 'Jetpack Compose app to help you finding mates for your games. Developped with Material Design 3 and Firebase',
@@ -179,6 +174,11 @@ export const projects: ProjectType[] = [
     name: 'SwearOff',
     desc: 'A tools powered by AI to censure swear in youtube videos.',
     github: 'https://github.com/drispal/SwearOff',
+  },
+  {
+    name: 'Onimetsu',
+    desc: 'Currently developping a 3D Hack\'n Slash game on my own.',
+    file: '/file/ONIMETSU_op.pdf',
   },
 ];
 
