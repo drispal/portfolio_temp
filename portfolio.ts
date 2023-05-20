@@ -171,6 +171,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'BuddyBuilder',
+    image: '/img/projects/buddybuilder.png',
     desc: 'Jetpack Compose app to help you finding mates for your games. Developped with Material Design 3 and Firebase',
     github: 'https://github.com/drispal/BuddyBuilder',
   },
