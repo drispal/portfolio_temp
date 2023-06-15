@@ -36,7 +36,7 @@ export const skillsSection: SkillsSectionType = {
   subTitle: '',
   data: [
     {
-      title: 'Game Developement',
+      title: 'Game Developer',
       lottieAnimationFile: '/lottie/gamedev.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('🎮 As a gameplay programmer, I possess a strong understanding of game design and mechanics, enabling me to bring creative ideas to life through coding.'),
@@ -63,7 +63,7 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Engineering',
+      title: 'Engineer',
       lottieAnimationFile: '/lottie/engineer.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('🧮 Mathematics and Physics lover but interest in all sciences.'),
@@ -96,7 +96,7 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Mobile/Web developement',
+      title: 'Mobile/Web developer',
       lottieAnimationFile: '/lottie/mobdev.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('🏛️ Jetpack Compose and Flutter for app development, with strong architecture knowledge.'),
@@ -177,7 +177,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'Onimetsu',
-    desc: 'Currently developping a 3D Hack\'n Slash game on my own.',
+    desc: 'Currently developping a 3D Hack\'n Slash gameplay on my own.',
     file: '/file/ONIMETSU_op.pdf',
   },
 ];
@@ -221,7 +221,7 @@ export const experience: ExperienceType[] = [
     ],
   },
   {
-    role: 'Gameplay Programmer End of Study Internship',
+    role: 'End of Study Internship',
     company: 'Your company',
     companyLogo: '/img/hireMe.jpg',
     date: '6 Months starting September 2023',
@@ -232,7 +232,7 @@ export const experience: ExperienceType[] = [
 export const educationInfo: EducationType[] = [
   {
     schoolName: 'UQAC',
-    subHeader: 'Master’s degree in video games',
+    subHeader: 'CS Master’s degree with major in video games',
     duration: '2022 - 2023',
     desc: 'University of Quebec in Chicoutimi, Canada. ',
     grade: '',
@@ -241,7 +241,8 @@ export const educationInfo: EducationType[] = [
       'CS Project Management.',
       'Prototyping on Unreal and Unity.',
       'Principles of game engines (Audio, Video, Network).',
-      'Making a small game engine.',
+      'Principles of physics engines.',
+      'Android development.',
       'Fundamentals of Machine Learning.',
     ],
   }, {
@@ -260,7 +261,7 @@ export const educationInfo: EducationType[] = [
   },
   {
     schoolName: 'Lycée Descartes',
-    subHeader: 'Higher School Preparatory Course MP/MP*',
+    subHeader: 'Higher School Preparatory Course MPSI/MP*',
     duration: '2018 - 2020',
     desc: 'Two years of intensive preparation for the national competitive entrance exams to the french engineering schools (Grandes Ecoles).',
     grade: '',
@@ -278,7 +279,7 @@ export const showContactUs: boolean = false;
 export const seoData: SEODataType = {
   title: 'Damien-Joseph RISPAL',
   description:
-    'A passionate gameplay programmer.',
+    'A passionate Engineer.',
   author: 'Damien-Joseph RISPAL',
   image: '',
   url: '',
