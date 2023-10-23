@@ -12,7 +12,6 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">
-                LOOKING FOR A GAMEPLAY PROGRAMMER INTERNSHIP STARTING IN SEPTEMBER 2023
               </p>
               <p className="text-white">
                 Mail me at : <a href='mailto:damienjoseph.rispal@gmail.com'>damienjoseph.rispal@gmail.com</a>

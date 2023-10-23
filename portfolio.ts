@@ -39,7 +39,7 @@ export const skillsSection: SkillsSectionType = {
       title: 'Game Developer',
       lottieAnimationFile: '/lottie/gamedev.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('🎮 As a gameplay programmer, I possess a strong understanding of game design and mechanics, enabling me to bring creative ideas to life through coding.'),
+        emoji('🎮 As a game dev, I possess a strong understanding of game design and mechanics, enabling me to bring creative ideas to life through coding.'),
         emoji('👨‍💻 Proficiency in programming languages such as C++ and C#, as well as experience with public game engines (Unity and Unreal).'),
         emoji('👥 I like collaborating with artists, designers, and other programmers to create engaging and immersive games.'),
       ],
@@ -221,10 +221,10 @@ export const experience: ExperienceType[] = [
     ],
   },
   {
-    role: 'End of Study Internship',
+    role: 'Internship',
     company: 'Your company',
     companyLogo: '/img/hireMe.jpg',
-    date: '6 Months starting September 2023',
+    date: '2024',
     desc: '',
   },
 ];
