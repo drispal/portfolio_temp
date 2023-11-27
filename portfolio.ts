@@ -224,7 +224,7 @@ export const experience: ExperienceType[] = [
     role: 'Gameplay Programmer',
     company: 'Beenox (Activision)',
     companyLogo: '/img/entreprises/beenox.png',
-    date: 'Sep 2022 - Mar 2022',
+    date: 'Sep 2023 - Mar 2024',
     desc: 'Worked on new content for Call of Duty Warzone.',
     descBullets: [
     ],
